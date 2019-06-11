@@ -42,6 +42,8 @@ DEFAULT_ASSET_TYPES = [
     'cloudresourcemanager.googleapis.com/Folder',
     'cloudresourcemanager.googleapis.com/Organization',
     'cloudresourcemanager.googleapis.com/Project',
+    'compute.googleapis.com/Address',
+    'compute.googleapis.com/GlobalAddress',
     'compute.googleapis.com/Autoscaler',
     'compute.googleapis.com/BackendBucket',
     'compute.googleapis.com/BackendService',

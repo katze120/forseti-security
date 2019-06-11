@@ -419,6 +419,7 @@ class CloudAssetCrawlerTest(CrawlerBase):
 
         expected_counts = copy.deepcopy(GCP_API_RESOURCES)
         expected_counts.update({
+            'address': {'resource': 2},
             'backendservice': {'resource': 2},
             'cloudsqlinstance': {'resource': 2},
             'compute_autoscaler': {'resource': 1},
@@ -475,6 +476,7 @@ class CloudAssetCrawlerTest(CrawlerBase):
         # Any resource not included in Cloud Asset export will not be in the
         # inventory.
         expected_counts = {
+            'address': {'resource': 2},
             'appengine_app': {'resource': 2},
             'appengine_service': {'resource': 1},
             'appengine_version': {'resource': 1},
