@@ -160,7 +160,7 @@ class ComputeTest(unittest_utils.ForsetiTestCase):
                              rule=fake_compute.FAKE_FIREWALL_RULE)
             expected_result = {
                 'targetLink': (
-                    'https://compute.googleapis.com/compute/v1/projects/'
+                    'https://www.googleapis.com/compute/v1/projects/'
                     'project1/global/firewalls/fake-firewall'),
                 'operationType': verb,
                 'name': 'fake-firewall',
